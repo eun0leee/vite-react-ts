@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: 'Spoqa Han Sans Neo';
+}
+
+body {
+  font-size: 16px;
+  /* font-weight: 400; */
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: -0.32px;
+}
