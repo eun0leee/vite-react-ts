@@ -1,10 +1,6 @@
-import { ReactComponent as IconComplete } from '@/assets/230524.svg';
-
 const Home = () => {
   return (
     <div className="w-[1024px] bg-slate-600">
-      <IconComplete className="w-[200px]" />
-      <button>버튼</button>
       Spoqa Han Sans Neo is a font that improves the previous Spoqa Han Sans. It
       supports more diverse weights and improves the readability and uniformity.
       스포카 한 산스 네오는 기존의 스포카 한 산스를 개선한 글꼴입니다. 더 다양한
@@ -28,12 +24,6 @@ const Home = () => {
       Adobe 프로그램이나 안드로이드 스튜디오에서도 별도의 행간 조정 없이 스포카
       한 산스 네오를 사용할 수 있습니다. Regular와 Bold의 사이 폰트 웨이트인
       Medium을 추가했습니다.
-      <br />
-      <br />
-      <br />
-      Regular와 Bold의 두께 차이가 큰 반면, 중간에 해당하는 웨이트가 부족해
-      디자인에 한계가 있었습니다. Medium 웨이트를 추가함으로서 폰트 활용의 폭이
-      넓어졌으며, 더욱 미려한 타이포그래피 표현이 가능합니다.
     </div>
   );
 };

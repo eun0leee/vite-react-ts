@@ -27,6 +27,14 @@
       "@/*": ["src/*"]
     }
   },
-  "include": ["src", "**/*.ts", "**/*.tsx", "src/types/common/custom.d.ts"],
+  "include": [
+    "src",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/types/common/custom.d.ts",
+    ".eslintrc.cjs",
+    "tailwind.config.cjs"
+  ],
+  "exclude": ["node_modules"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
